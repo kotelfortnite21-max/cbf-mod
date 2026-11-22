@@ -12834,14 +12834,14 @@ class $modify(BufPlayLayer, PlayLayer) {
 #else
         constexpr float WATERMARK_SCALE = 0.22f;
 #endif
-        buf.watermark = CCLabelBMFont::create("", "bigFont.fnt");
-        buf.watermark->setScale(WATERMARK_SCALE);
-        buf.watermark->setColor({ 150, 205, 255 });
-        buf.watermark->setOpacity(150);
-        buf.watermark->setAnchorPoint({ 0.f, 0.f });
-        buf.watermark->setPosition({ 4.f, 3.f });
-        buf.watermark->setZOrder(1000);
-        // this->addChild(buf.watermark);
+        // buf.watermark = CCLabelBMFont::create("", "bigFont.fnt");
+// buf.watermark->setScale(WATERMARK_SCALE);
+// buf.watermark->setColor({ 150, 205, 255 });
+// buf.watermark->setOpacity(150);
+// buf.watermark->setAnchorPoint({ 0.f, 0.f });
+// buf.watermark->setPosition({ 4.f, 3.f });
+// buf.watermark->setZOrder(1000);
+// this->addChild(buf.watermark);
         buf.usedThisAttempt = false;
         refreshWatermark();
 
